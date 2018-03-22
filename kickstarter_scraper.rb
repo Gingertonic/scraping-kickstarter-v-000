@@ -12,7 +12,7 @@ def create_project_hash
   kickstarter.css(".project-card").each do |project|
     projects[project] = {}
   end
-  binding.pry
+  # binding.pry
 
   projects
 end
