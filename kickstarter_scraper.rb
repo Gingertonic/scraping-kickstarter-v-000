@@ -11,11 +11,12 @@ def create_project_hash
 
   kickstarter.css(".project-card").each do |project|
     projects[project] = {}
+  end
 
+  projects
 end
 
 
-projects
 
 # Flatiron says: projects: kickstarter.css("li.project.grid_4")
 # # I think:
